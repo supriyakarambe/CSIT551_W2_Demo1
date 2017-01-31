@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context="com.example.rahul.csit551_w2_demo1.MainActivity">
+
+    <TextView
+        android:id="@+id/text1_act1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/text2_act1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        />
+<Button
+    android:id="@+id/btn1_act1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Click"
+    android:onClick="changetext"
+
+    />
+    <Button
+        android:id="@+id/btn2_act1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here"
+        />
+
+
+</LinearLayout>
